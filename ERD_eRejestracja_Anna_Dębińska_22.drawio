@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="Strona-1" id="zkMbT_RbA53d3srAREit">
     <mxGraphModel dx="2498" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Strona-2" id="HirvOO0Oqpfyhf18s_GV">
-    <mxGraphModel dx="1846" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2770" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -458,146 +458,6 @@
             <mxPoint x="150" y="940" as="sourcePoint" />
             <mxPoint x="317" y="1141" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Strona-2" id="I_eYxfBvHQnemrCZQFEL">
-    <mxGraphModel dx="2258" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="-ol085-txD5T4WmzCD4Y-27" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PACJENT" vertex="1">
-          <mxGeometry height="250" width="160" x="-400" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-28" parent="-ol085-txD5T4WmzCD4Y-27" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID PACJENTA&lt;div&gt;* TYP IDENTYFIKATORA&lt;/div&gt;&lt;div&gt;* IDENTYFIKATOR&lt;/div&gt;&lt;div&gt;* NAZWISKO&lt;/div&gt;&lt;div&gt;* IMIE&lt;/div&gt;&lt;div&gt;o ULICA&lt;/div&gt;&lt;div&gt;* NR DOMU&lt;/div&gt;&lt;div&gt;o NR LOKALU&lt;/div&gt;&lt;div&gt;* KOD POCZTOWY&lt;/div&gt;&lt;div&gt;* MIEJSCOWOŚĆ&lt;/div&gt;&lt;div&gt;* KRAJ&lt;/div&gt;&lt;div&gt;* NR TELEFONU&lt;/div&gt;&lt;div&gt;* DATA URODZIN&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-29" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="IDENTYFIKATOR" vertex="1">
-          <mxGeometry height="90" width="160" x="-7" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-30" parent="-ol085-txD5T4WmzCD4Y-29" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID IDENTYFIKATORA&lt;div&gt;* NAZWA&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-31" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="KONTO" vertex="1">
-          <mxGeometry height="150" width="160" x="-205" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-32" parent="-ol085-txD5T4WmzCD4Y-31" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# EMAIL&lt;div&gt;* ID PACJENTA&lt;/div&gt;&lt;div&gt;* HASŁO&lt;/div&gt;&lt;div&gt;* DATA ZAŁOŻENIA&lt;/div&gt;&lt;div&gt;* DATA KOŃCA&lt;/div&gt;&lt;div&gt;* CZY AKTYWNE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-33" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="ZGODA" vertex="1">
-          <mxGeometry height="110" width="160" x="190" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-34" parent="-ol085-txD5T4WmzCD4Y-33" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#ID PACJENTA&lt;div&gt;#DATA ZGODY&lt;/div&gt;&lt;div&gt;o DATA WYCOFANIA&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-35" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="RODZIC" vertex="1">
-          <mxGeometry height="140" width="160" x="190" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-36" parent="-ol085-txD5T4WmzCD4Y-35" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID RODZICA&lt;div&gt;# ID DZIECKA&lt;/div&gt;&lt;div&gt;* TYP OPIEKI&lt;/div&gt;&lt;div&gt;* DATA POCZĄTKU&lt;/div&gt;&lt;div&gt;o DATA KOŃCA&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-37" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="FILIA" vertex="1">
-          <mxGeometry height="190" width="160" x="-10" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-38" parent="-ol085-txD5T4WmzCD4Y-37" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# ID FILI&lt;/div&gt;* NAZWA&lt;div&gt;o ULICA&lt;/div&gt;&lt;div&gt;* NR DOMU&lt;/div&gt;&lt;div&gt;o NR LOKALU&lt;/div&gt;&lt;div&gt;* KOD POCZTOWY&lt;/div&gt;&lt;div&gt;* MIEJSCOWOŚĆ&lt;/div&gt;&lt;div&gt;* KRAJ&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;NR TELEFONU&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-45" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="OTWARCIE" vertex="1">
-          <mxGeometry height="140" width="160" x="-210" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-46" parent="-ol085-txD5T4WmzCD4Y-45" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID FILI&lt;div&gt;# DZIEŃ&lt;/div&gt;&lt;div&gt;# GODZINA OD&lt;/div&gt;&lt;div&gt;# GODZINA DO&lt;/div&gt;&lt;div&gt;# CZY AKTYWNE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-47" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="GABINET" vertex="1">
-          <mxGeometry height="140" width="220" x="390" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-ol085-txD5T4WmzCD4Y-48" parent="-ol085-txD5T4WmzCD4Y-47" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID FILII&lt;div&gt;# NR GABINETU&lt;/div&gt;&lt;div&gt;* NAZWA&lt;/div&gt;&lt;div&gt;* RODZAJ GABINETU&lt;/div&gt;&lt;div&gt;*DOSTĘPNOŚĆ NIEPEŁNOSPRAWNI&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="220" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="28f4IrhQa7mkntGpUekA-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PRACOWNIK" vertex="1">
-          <mxGeometry height="210" width="220" x="390" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="28f4IrhQa7mkntGpUekA-2" parent="28f4IrhQa7mkntGpUekA-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID PRACOWNIKA&lt;div&gt;* TYP PRACOWNIKA&lt;br&gt;&lt;div&gt;* IMIE&lt;/div&gt;&lt;div&gt;* NAZWISKO&lt;/div&gt;&lt;div&gt;o TYTUŁ NAUKOWY&lt;/div&gt;&lt;div&gt;o NR PRAWA WYKONYWANIA ZAWODU&lt;/div&gt;&lt;div&gt;* DATA ZATRUDNIENIA&lt;/div&gt;&lt;div&gt;* EMAIL&lt;/div&gt;&lt;div&gt;* NR TELEFONU&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="220" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="U1m_0dbdJ0KMy7ug9tNO-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="KIEROWNIK" vertex="1">
-          <mxGeometry height="120" width="160" x="640" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="U1m_0dbdJ0KMy7ug9tNO-2" parent="U1m_0dbdJ0KMy7ug9tNO-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID KIEROWNIKA&lt;div&gt;# ID PRACOWNIKA&lt;/div&gt;&lt;div&gt;# ID FILII&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Jys656MugYDEWVW9QdLT-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="SPECJALIZACJA" vertex="1">
-          <mxGeometry height="110" width="160" x="190" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Jys656MugYDEWVW9QdLT-2" parent="Jys656MugYDEWVW9QdLT-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID SPECJALIZACJI&lt;div&gt;# ID PRACOWNIKA&lt;br&gt;&lt;div&gt;* NAZWA&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="b4SrkcVRua3mz2vwTE02-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="CENNIK" vertex="1">
-          <mxGeometry height="150" width="160" x="-390" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="b4SrkcVRua3mz2vwTE02-2" parent="b4SrkcVRua3mz2vwTE02-1" style="align=left;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID CENNIKA&lt;div&gt;# ID USŁUGI&lt;/div&gt;&lt;div&gt;* RODZAJ WIZYTY&lt;/div&gt;&lt;div&gt;* CENA&lt;/div&gt;&lt;div&gt;* DATA OD&lt;/div&gt;&lt;div&gt;o DATA DO&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jZwMyYr6-4su6BltGEpV-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="USŁUGA" vertex="1">
-          <mxGeometry height="120" width="160" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="jZwMyYr6-4su6BltGEpV-2" parent="jZwMyYr6-4su6BltGEpV-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID USŁUGI&lt;div&gt;* NAZWA USŁUGI&lt;/div&gt;&lt;div&gt;* OPIS&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ulrs-R-r600jvTGiTdmi-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="GRAFIK" vertex="1">
-          <mxGeometry height="190" width="160" x="650" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="ulrs-R-r600jvTGiTdmi-4" parent="ulrs-R-r600jvTGiTdmi-3" style="align=left;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID GRAFIKU&lt;div&gt;# ID FILII&lt;/div&gt;&lt;div&gt;# ID GABINETU&lt;/div&gt;&lt;div&gt;# ID PRACOWNIKA&lt;/div&gt;&lt;div&gt;# ID KIEROWNIKA&lt;/div&gt;&lt;div&gt;* DATA&lt;/div&gt;&lt;div&gt;* GODZINA OD&lt;/div&gt;&lt;div&gt;* GODZINA DO&lt;/div&gt;&lt;div&gt;o UWAGI&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="acL298xnavHlAdXcWN28-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="REZERWACJA" vertex="1">
-          <mxGeometry height="160" width="160" x="390" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="acL298xnavHlAdXcWN28-2" parent="acL298xnavHlAdXcWN28-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID REZERWACJI&lt;div&gt;# ID PACJENTA&lt;/div&gt;&lt;div&gt;# ID GRAFIKU&lt;/div&gt;&lt;div&gt;* GODZINA TERMINU&lt;/div&gt;&lt;div&gt;* DATA URODZENIA&lt;/div&gt;&lt;div&gt;* STATUS&lt;/div&gt;&lt;div&gt;o KTO UMÓWIŁ&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-5" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="WIZYTA" vertex="1">
-          <mxGeometry height="150" width="160" x="195" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-6" parent="hpbaxIv1O-AuuU2_99LR-5" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID WIZYTY&lt;div&gt;# ID REZERWACJI&lt;/div&gt;&lt;div&gt;* RODZAJ WIZYTY&lt;/div&gt;&lt;div&gt;* CENA&lt;/div&gt;&lt;div&gt;o NR TELEFONU DO LEKARZA&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="SKIEROWANIE" vertex="1">
-          <mxGeometry height="160" width="160" x="-210" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-8" parent="hpbaxIv1O-AuuU2_99LR-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# KOD SKIEROWANIA&lt;div&gt;# ID PACJENTA&lt;/div&gt;&lt;div&gt;# ID WIZYTY&lt;/div&gt;&lt;div&gt;* KTO WYSTAWIŁ&lt;/div&gt;&lt;div&gt;* KIEDY WYSTAWIONO&lt;/div&gt;&lt;div&gt;* PORADNIA&lt;/div&gt;&lt;div&gt;* CZY WYKORZYSTANE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-10" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PŁATNOŚĆ" vertex="1">
-          <mxGeometry height="150" width="160" y="510" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-11" parent="hpbaxIv1O-AuuU2_99LR-10" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID PŁATNOŚCI&lt;div&gt;# ID WIZYTY&lt;/div&gt;&lt;div&gt;* KWOTA ZAPŁACONA&lt;/div&gt;&lt;div&gt;* DATA PŁATNOŚCI&lt;/div&gt;&lt;div&gt;* CZY PRZESZŁA&lt;/div&gt;&lt;div&gt;* TYP ROZLICZENIA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-12" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PRZYPOMNIENIE" vertex="1">
-          <mxGeometry height="130" width="160" x="200" y="630" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-13" parent="hpbaxIv1O-AuuU2_99LR-12" style="align=left;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID PRZYPOMNIENIA&lt;div&gt;# ID REZERWCJI&lt;/div&gt;&lt;div&gt;* TYP WIADOMOŚCI&lt;/div&gt;&lt;div&gt;* DATA WYSŁANIA&lt;/div&gt;&lt;div&gt;* TREŚĆ WIADOMOŚCI&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-14" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="ODWOŁANIE" vertex="1">
-          <mxGeometry height="150" width="160" x="-195" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-15" parent="hpbaxIv1O-AuuU2_99LR-14" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID ODWOŁANIA&lt;div&gt;# ID WIZYTY&lt;/div&gt;&lt;div&gt;* KTO ODWOŁAŁ&lt;/div&gt;&lt;div&gt;* DATA I GODZINA ODWOŁANIA&lt;/div&gt;&lt;div&gt;* POWÓD&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="160" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-16" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="NIEOBECNOŚĆ" vertex="1">
-          <mxGeometry height="120" width="190" x="585" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-17" parent="hpbaxIv1O-AuuU2_99LR-16" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID NIEOBECNOŚCI&lt;div&gt;# ID WIZYTY&lt;/div&gt;&lt;div&gt;* DATA&lt;/div&gt;&lt;div&gt;* CZY USPRAWIEDLIWIONA&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="190" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="SKARGA" vertex="1">
-          <mxGeometry height="120" width="160" x="-390" y="500" as="geometry" />
-        </mxCell>
-        <mxCell id="hpbaxIv1O-AuuU2_99LR-19" parent="hpbaxIv1O-AuuU2_99LR-18" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ID SKARGI&lt;div&gt;# ID PACJENTA&lt;/div&gt;&lt;div&gt;* DATA ZAŁOŻENIA&lt;/div&gt;&lt;div&gt;* TREŚĆ SKARGI&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="160" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
